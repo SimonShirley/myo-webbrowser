@@ -47,6 +47,7 @@ end
 
 function onPoseEdge(pose, edge)
 	pose = conditionallySwapWave(pose)
+	pose = swapFistSpread(pose)
 	
 	if (edge == "on") then
 		if myo.isUnlocked() then
@@ -103,6 +104,18 @@ function conditionallySwapWave(pose)
     	end
 
     	return pose
+end
+
+function swapFistSpread(pose)
+	if pose == "fist" then
+		pose = "fingersSpread"
+	elseif pose == "fingersSpread" then
+		pose = "fist"
+	else
+		pose = pose
+	end
+
+	return pose
 end
 
 function onWaveLeft()
