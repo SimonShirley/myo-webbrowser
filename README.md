@@ -26,4 +26,4 @@ Using Web Browser Navigation with Myo
 
 https://market.myo.com/app/5485b06be4b0639d1780a915/web-browser-navigation
 
-For support, contact Simon Shirley via foreversonic@me.com
+For support, contact Simon Shirley via email@simonshirley.uk
