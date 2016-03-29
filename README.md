@@ -20,8 +20,10 @@ Using Web Browser Navigation with Myo
 - Double Tap	-	Timed Unlock
 - Wave Left	-	Navigate Backwards (Previous Page)
 - Wave Right	-	Navigate Forwards (Next Page)
-- Spread Fingers	-	Refresh Page
-- Make Fist	-	Scrolls the page (combined with arm pitch)
+- Spread Fingers	-	Scrolls the page (combined with arm pitch)
+- Make Fist	-	Refresh Page
+
+NOTE: The Fingers Spread and Fist gestures are reversed when compared to the master branch.
 
 
 https://market.myo.com/app/5485b06be4b0639d1780a915/web-browser-navigation
