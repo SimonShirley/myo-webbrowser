@@ -28,6 +28,9 @@ function onForegroundWindowChange(app, title)
 		elseif app == "com.google.Chrome" then
 			appTitle = "Google Chrome"
 			return true
+		elseif app == "com.google.Chrome.canary" then
+			appTitle = "Google Chrome"
+			return true
 		elseif app == "com.apple.Safari" then
 			appTitle = "Apple Safari"
 			return true
